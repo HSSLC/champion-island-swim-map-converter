@@ -11,8 +11,8 @@ There is also a another program `midi_to_audacity_label.py`, that is for convert
 
 # Usage
 ## Audacity label file to js array
-params: `kitsune_map_generator.py INPUT_FILE`  
-output file will be named `output_map.txt`  
+Usage: `kitsune_map_generator.py INPUT_FILE`  
+Output file will be named `output_map.txt`  
   
 In Audacity, add a new label track and type command in label at timestamp.  
 command is following:
@@ -28,8 +28,8 @@ Or you can also custom your command by add `elif` to program.
 I also modifyed `kitsune.js`, add variable speed to swim map, when parsing to note of type 9, that will change speed to value of that note.  
 
 ## MIDI file to Audacity label
-params: `midi_to_audacity_label.py INPUT_FILE TRACK_NUMBER OFFSET`  
-output file will be named `label_output.txt`  
+Usage: `midi_to_audacity_label.py INPUT_FILE TRACK_NUMBER OFFSET`  
+Output file will be named `label_output.txt`  
 `OFFSET` is for if there is some offset between MIDI and Audacity track (ms), you set this param. 
   
 If you just adding a lot of note label in Audacity, some complex map will drives you crazy.  

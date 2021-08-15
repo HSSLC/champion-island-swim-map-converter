@@ -30,7 +30,7 @@ I also modifyed `kitsune.js`, add variable speed to swim map, when parsing to no
 ## MIDI file to Audacity label
 Usage: `midi_to_audacity_label.py INPUT_FILE TRACK_NUMBER OFFSET`  
 Output file will be named `label_output.txt`  
-`OFFSET` is for if there is some offset between MIDI and Audacity track (ms), you set this param. 
+`OFFSET` is for if there is some offset between MIDI and Audacity track (ms).
   
 If you just adding a lot of note label in Audacity, some complex map will drives you crazy.  
   
@@ -41,7 +41,7 @@ You can add note of MIDI in DAW like FL Studio ect... and using pitch to express
 Default mapping is:
 * C5: d
 * C#5: s
-* D5: s
+* D5: w
 * D#5: a
   
 So you can add a lot of note on beat and convert to Audacity label and calibrate in Audacity.
